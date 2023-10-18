@@ -2,7 +2,7 @@ console.log("Welcome to twr");
 
 
 let songIndex = 0;
-let audioElement = new Audio('songs/1.mp3');
+let audioElement = new Audio('1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -10,12 +10,12 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "TWR - GUMMO REMIX", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "TWR - Mc Hammer prod.oilbeatz", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "TWR - diss na całą polską rap scene ", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "TWR - O.G SNOWMAN", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "TWR - Przywiozlem WOCK Do Polski", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "TWR - Amg & Rick Owens", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
+    {songName: "TWR - GUMMO REMIX", filePath: "1.mp3", coverPath: "1.jpg"},
+    {songName: "TWR - Mc Hammer prod.oilbeatz", filePath: "2.mp3", coverPath: "2.jpg"},
+    {songName: "TWR - diss na całą polską rap scene ", filePath: "3.mp3", coverPath: "3.jpg"},
+    {songName: "TWR - O.G SNOWMAN", filePath: "4.mp3", coverPath: "4.jpg"},
+    {songName: "TWR - Przywiozlem WOCK Do Polski", filePath: "5.mp3", coverPath: "5.jpg"},
+    {songName: "TWR - Amg & Rick Owens", filePath: "2.mp3", coverPath: "6.jpg"},
    
 ]
 
